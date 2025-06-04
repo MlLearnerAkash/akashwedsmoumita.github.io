@@ -804,3 +804,20 @@ a {
 		}
 	  }
 
+
+	  /* ────── AM MENU IMAGE CARD ────── */
+.menu-image-card {
+  max-width: 600px;           /* Limit how wide the menu can grow */
+  margin: 2rem auto;          /* Center horizontally, and 2rem top/bottom spacing */
+  border-radius: 12px;        /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+  overflow: hidden;           /* Ensure corners stay clipped */
+  background: white;          /* In case the image has transparency */
+}
+
+/* Make the <img> fill the entire card width without distortion */
+.menu-image-card .menu-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
